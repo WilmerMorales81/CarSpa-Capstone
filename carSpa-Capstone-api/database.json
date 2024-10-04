@@ -1,0 +1,59 @@
+{
+    "orders": [
+      {
+        "id": 1,
+        "interiorId": 1,
+        "exteriorId": 2,
+        "userId": 1
+      },
+      {
+        "id": 2,
+        "interiorId": 3,
+        "exteriorId": 1,
+        "userId": 2
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "fullName": "John Doe",
+        "email": "john.doe@example.com",
+        "isStaff": true
+      },
+      {
+        "id": 2,
+        "fullName": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "isStaff": false
+      }
+    ],
+    "interior": [
+      {
+        "id": 1,
+        "service": "Interior Cleaning"
+      },
+      {
+        "id": 2,
+        "service": "Leather Treatment"
+      },
+      {
+        "id": 3,
+        "service": "Dashboard Polishing"
+      }
+    ],
+    "exterior": [
+      {
+        "id": 1,
+        "service": "Car Wash"
+      },
+      {
+        "id": 2,
+        "service": "Waxing"
+      },
+      {
+        "id": 3,
+        "service": "Tire Polishing"
+      }
+    ]
+  }
+  
